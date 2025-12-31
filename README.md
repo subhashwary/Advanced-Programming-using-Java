@@ -46,3 +46,38 @@ Books/References
 4. Cay S. Horstmann, Core Java Volume I & II, Pearson Education.
 5. Bruce Eckel, Thinking in Java, Pearson.
 6. Kathy Sierra & Bert Bates, Head First Java, O’Reilly.
+
+Advanced Programming using Java Lab 
+
+Unit 1: Object-Oriented Programming in Java
+1. Write Java programs to demonstrate class, object, constructor, and method overloading.
+2. Implement inheritance (single, multilevel) and method overriding.
+3. Demonstrate the use of abstract classes and interfaces.
+4. Implement inner classes and anonymous inner classes.
+   
+Unit 2: Advanced Language Features
+5. Implement programs using Generics (generic class, generic method).
+6. Demonstrate the use of Collections Framework – ArrayList, HashSet, HashMap.
+7. Implement data processing using Stream API with lambda expressions and method references.
+
+Unit 3: Exception Handling and Multithreading
+8. Write Java programs demonstrating try–catch–finally, throw, and throws.
+9. Implement a custom exception class.
+10. Create a program with multiple threads showing synchronization and inter-thread communication.
+11. Implement a producer–consumer problem using threads.
+
+Unit 4: File and I/O Programming
+12. Perform file read/write operations using both byte and character streams.
+13. Demonstrate serialization and deserialization of objects.
+14. Implement file copying and merging using BufferedReader and BufferedWriter.
+
+Unit 5: GUI Programming and Event Handling
+15. Design a GUI-based calculator or student record manager using AWT/Swing components.
+16. Implement event handling using listeners (ActionListener, ItemListener, MouseListener).
+
+Unit 6: Database and Networking Applications
+17. Connect Java to a database (e.g., MySQL) using JDBC.
+Insert, update, delete, and display records using SQL queries.
+18. Create a client–server chat application using TCP sockets.
+19. Build a simple HTTP client using HttpURLConnection or Java Sockets.
+
