@@ -9,3 +9,11 @@ Database Connectivity (JDBC): Using the Java Database Connectivity API to intera
 Networking: Building applications that communicate over a network using concepts like socket programming, TCP/IP, and URL connections.
 Multithreading and Concurrency: Advanced techniques for managing multiple threads of execution simultaneously to improve application performance and responsiveness.
 Design Patterns: Understanding and implementing established software design patterns to write robust, maintainable, and scalable code. 
+
+Web and Enterprise Development
+
+Servlets and JSP (JavaServer Pages): The foundational technologies for creating dynamic, interactive web applications and handling client requests on a server.
+Enterprise JavaBeans (EJB): Components that provide distributed and transactional features for building enterprise-level applications.
+Web Services: Developing and consuming both SOAP and RESTful web services, enabling different applications to communicate with each other over the internet.
+Frameworks: Integrating with modern, widely used frameworks like Spring (for dependency injection and application structure), Hibernate (for Object-Relational Mapping (ORM) and persistence), and Struts. 
+
