@@ -1,1 +1,11 @@
-Advanced Programming using Java, often referred to as Advanced Java or Jakarta EE (formerly Java EE), focuses on the specialized APIs, libraries, and frameworks used to build large-scale, enterprise-level, and web-based applications. It builds upon the foundational knowledge of Core Java (Java SE). 
+Advanced Programming using Java, often referred to as Advanced Java or Jakarta EE (formerly Java EE), focuses on the specialized APIs, libraries, and frameworks used to build 
+large-scale, enterprise-level, and web-based applications. It builds upon the foundational knowledge of Core Java (Java SE). 
+
+Key topics and technologies typically covered in Advanced Java include:
+
+Core Concepts
+
+Database Connectivity (JDBC): Using the Java Database Connectivity API to interact with relational databases (like MySQL, Oracle, etc.), including advanced topics like connection pooling and transaction management.
+Networking: Building applications that communicate over a network using concepts like socket programming, TCP/IP, and URL connections.
+Multithreading and Concurrency: Advanced techniques for managing multiple threads of execution simultaneously to improve application performance and responsiveness.
+Design Patterns: Understanding and implementing established software design patterns to write robust, maintainable, and scalable code. 
