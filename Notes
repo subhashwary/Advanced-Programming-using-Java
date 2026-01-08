@@ -5,10 +5,10 @@ Key topics and technologies typically covered in Advanced Java include:
 
 Core Concepts
 
-Database Connectivity (JDBC): Using the Java Database Connectivity API to interact with relational databases (like MySQL, Oracle, etc.), including advanced topics like connection pooling and transaction management.
-Networking: Building applications that communicate over a network using concepts like socket programming, TCP/IP, and URL connections.
-Multithreading and Concurrency: Advanced techniques for managing multiple threads of execution simultaneously to improve application performance and responsiveness.
-Design Patterns: Understanding and implementing established software design patterns to write robust, maintainable, and scalable code. 
+1. Database Connectivity (JDBC): Using the Java Database Connectivity API to interact with relational databases (like MySQL, Oracle, etc.), including advanced topics like connection pooling and transaction management.
+2. Networking: Building applications that communicate over a network using concepts like socket programming, TCP/IP, and URL connections.
+3. Multithreading and Concurrency: Advanced techniques for managing multiple threads of execution simultaneously to improve application performance and responsiveness.
+4. Design Patterns: Understanding and implementing established software design patterns to write robust, maintainable, and scalable code. 
 
 Web and Enterprise Development
 
