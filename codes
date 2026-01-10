@@ -73,6 +73,23 @@ public record User(int id, String name, String email) {}
 User user = new User(1, "John Doe", "john@example.com");
 System.out.println(user.name()); // Automatically generated getter-like method
 
+#Virtual Threads (Project Loom)
+import java.util.concurrent.Executors;
+public class VirtualThreadDemo {
+    public static void main(String[] args) {
+        // Use an executor that creates a new virtual thread for every task
+        try (var executor = Executors.newVirtualThreadPerTaskExecutor()) {
+            executor.submit(() -> {
+                System.out.println("Running in virtual thread: " + Thread.currentThread());
+                // Non-blocking sleep: frees the carrier thread for other work
+                Thread.sleep(1000); 
+            });
+        } // Executor auto-closes, waiting for tasks to finish
+    }
+}
+
+#
+
 #Advanced Framework Examples
 For real-world enterprise applications, these concepts are often abstracted into frameworks:
 Spring Boot: Simplifies complex configurations for web services.
