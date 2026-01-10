@@ -68,3 +68,9 @@ public class JdbcDemo {
 }
 
 #Modern Data Modeling (Records)
+public record User(int id, String name, String email) {}
+// Usage:
+User user = new User(1, "John Doe", "john@example.com");
+System.out.println(user.name()); // Automatically generated getter-like method
+
+#
