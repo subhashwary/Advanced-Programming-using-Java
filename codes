@@ -73,4 +73,7 @@ public record User(int id, String name, String email) {}
 User user = new User(1, "John Doe", "john@example.com");
 System.out.println(user.name()); // Automatically generated getter-like method
 
-#
+#Advanced Framework Examples
+For real-world enterprise applications, these concepts are often abstracted into frameworks:
+Spring Boot: Simplifies complex configurations for web services.
+Hibernate: Automates the mapping of Java objects to database tables (ORM), reducing the need for raw SQL as seen in JDBC. 
