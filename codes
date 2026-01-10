@@ -33,3 +33,16 @@ public class StreamExample {
 }
 
 #Asynchronous Programming (CompletableFuture)
+import java.util.concurrent.CompletableFuture;
+public class AsyncExample {
+    public static void main(String[] args) {
+        CompletableFuture.supplyAsync(() -> {
+            // Simulate a long-running task
+            return "Data fetched";
+        })
+        .thenApply(result -> result + " and processed")
+        .thenAccept(System.out::println) // Output: Data fetched and processed
+        .join(); // Wait for completion
+    }
+}
+
