@@ -88,6 +88,26 @@ public class VirtualThreadDemo {
     }
 }
 
+#Modern Spring Boot REST API
+import org.springframework.web.bind.annotation.*;
+import java.util.List;
+@RestController
+@RequestMapping("/api/v1/products")
+public class ProductController {
+    // Simple GET endpoint returning a record-based model
+    @GetMapping
+    public List<Product> getAllProducts() {
+        return List.of(new Product(1, "Laptop", 1200.00));
+    }
+    // POST endpoint to handle incoming JSON data
+    @PostMapping
+    public String addProduct(@RequestBody Product product) {
+        return "Product " + product.name() + " saved successfully!";
+    }
+}
+// Immutable Record for data modeling
+record Product(int id, String name, double price) {}
+
 #
 
 #Advanced Framework Examples
