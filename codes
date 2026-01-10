@@ -108,7 +108,45 @@ public class ProductController {
 // Immutable Record for data modeling
 record Product(int id, String name, double price) {}
 
-#
+#Advanced Stream Operations
+import java.util.*;
+import java.util.stream.Collectors;
+public class StreamRefinement {
+    public static void main(String[] args) {
+        List<String> items = List.of("apple", "banana", "cherry", "apricot");
+        // Group items by their starting letter and count them
+        Map<Character, Long> counts = items.stream()
+            .filter(s -> s.length() > 3)
+            .collect(Collectors.groupingBy(
+                s -> s.charAt(0), 
+                Collectors.counting()
+            ));
+        System.out.println(counts); // Example Output: {a=2, b=1, c=1}
+    }
+}
+
+#Design Patterns: Factory Pattern
+interface Notification {
+    void notifyUser();
+}
+class EmailNotification implements Notification {
+    public void notifyUser() { System.out.println("Sending Email..."); }
+}
+class SMSNotification implements Notification {
+    public void notifyUser() { System.out.println("Sending SMS..."); }
+}
+class NotificationFactory {
+    public static Notification createNotification(String channel) {
+        return switch (channel.toUpperCase()) {
+            case "SMS" -> new SMSNotification();
+            case "EMAIL" -> new EmailNotification();
+            default -> throw new IllegalArgumentException("Unknown channel");
+        };
+    }
+}
+
+#Database Persistence (Spring Data JPA)
+
 
 #Advanced Framework Examples
 For real-world enterprise applications, these concepts are often abstracted into frameworks:
