@@ -80,3 +80,5 @@ class IfStatement {
     System.out.println("Statement outside if block");
   }
 }
+
+8.
