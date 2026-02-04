@@ -336,9 +336,7 @@ Think of this as a **checklist of Java DSA implementations**.
 * Kruskal’s Algorithm
 * Disjoint Set Union (DSU)
 
----
-
-## **15. Dynamic Programming (Code)**
+15. Dynamic Programming (Code)**
 
 * Fibonacci (DP)
 * Climbing stairs
