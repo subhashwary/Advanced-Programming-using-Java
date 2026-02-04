@@ -321,9 +321,7 @@ Think of this as a **checklist of Java DSA implementations**.
 * Kth largest element
 * Median of data stream
 
----
-
-## **14. Graphs (Code Implementations)**
+14. Graphs (Code Implementations)**
 
 * Graph using adjacency list
 * BFS
