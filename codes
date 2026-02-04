@@ -159,5 +159,258 @@ For real-world enterprise applications, these concepts are often abstracted into
 Spring Boot: Simplifies complex configurations for web services.
 Hibernate: Automates the mapping of Java objects to database tables (ORM), reducing the need for raw SQL as seen in JDBC. 
 
+Nice, now we’re getting very **hands-on** 👌
+Below is a **Java Programming Codes Syllabus for DSA** — meaning **what exact programs you should be able to code**, topic by topic.
+Think of this as a **checklist of Java DSA implementations**.
 
-N Y
+---
+
+# **Java DSA Programming Codes Syllabus**
+
+## **1. Java Basics (Code-Level)**
+
+* Hello World Program
+* Input/Output using `Scanner` & `BufferedReader`
+* Swap two numbers
+* Check even or odd
+* Find largest of three numbers
+* Print patterns (stars, numbers)
+* Fibonacci series (iterative & recursive)
+* Factorial (iterative & recursive)
+
+---
+
+## **2. Time & Space Complexity (Code Examples)**
+
+* Count operations in loops
+* Nested loop complexity programs
+* Compare brute force vs optimized code
+* Space optimization examples
+
+---
+
+## **3. Arrays (Core DSA Codes)**
+
+* Array input & output
+* Reverse an array
+* Find min & max in array
+* Rotate array (left/right)
+* Move zeros to end
+* Remove duplicates (sorted array)
+* Find missing number
+* Find duplicate number
+* Kadane’s Algorithm
+* Prefix sum array
+
+---
+
+## **4. Searching Algorithms (Code)**
+
+* Linear Search
+* Binary Search (iterative)
+* Binary Search (recursive)
+* Binary Search on Answer
+
+---
+
+## **5. Sorting Algorithms (Code)**
+
+* Bubble Sort
+* Selection Sort
+* Insertion Sort
+* Merge Sort
+* Quick Sort
+* Counting Sort
+* Sort using Java Comparator
+
+---
+
+## **6. Recursion & Backtracking (Code)**
+
+* Print numbers using recursion
+* Sum of digits
+* Reverse number using recursion
+* Check palindrome
+* Subsets generation
+* Permutations
+* N-Queens problem
+* Rat in a Maze
+* Sudoku Solver
+
+---
+
+## **7. Strings (DSA Codes)**
+
+* Reverse a string
+* Check palindrome string
+* Check anagram
+* Count frequency of characters
+* Longest common prefix
+* Longest substring without repeating characters
+* String compression
+* KMP pattern matching (basic)
+
+---
+
+## **8. Linked List (Implementation Codes)**
+
+* Singly Linked List (insert, delete, traverse)
+* Doubly Linked List
+* Reverse linked list
+* Find middle of linked list
+* Detect loop (Floyd’s algorithm)
+* Merge two sorted linked lists
+* Remove nth node from end
+* LRU Cache implementation
+
+---
+
+## **9. Stack (Code Implementations)**
+
+* Stack using array
+* Stack using linked list
+* Valid parentheses
+* Next Greater Element
+* Infix to Postfix
+* Postfix expression evaluation
+* Min Stack
+
+---
+
+## **10. Queue (Code Implementations)**
+
+* Queue using array
+* Circular Queue
+* Queue using linked list
+* Deque implementation
+* Sliding Window Maximum
+
+---
+
+## **11. Hashing (Code)**
+
+* Frequency count using HashMap
+* First non-repeating element
+* Two Sum problem
+* Subarray sum equals K
+* Longest consecutive sequence
+* Group anagrams
+
+---
+
+## **12. Trees (Code Implementations)**
+
+* Binary Tree creation
+* Tree traversals (Inorder, Preorder, Postorder)
+* Level order traversal
+* Height of tree
+* Diameter of tree
+* Check balanced tree
+* Lowest Common Ancestor
+* Binary Search Tree operations
+* Validate BST
+
+---
+
+## **13. Heaps & Priority Queue (Code)**
+
+* Min Heap implementation
+* Max Heap implementation
+* Heap Sort
+* Top K elements
+* Kth largest element
+* Median of data stream
+
+---
+
+## **14. Graphs (Code Implementations)**
+
+* Graph using adjacency list
+* BFS
+* DFS
+* Detect cycle (undirected)
+* Detect cycle (directed)
+* Topological Sort
+* Dijkstra’s Algorithm
+* Prim’s Algorithm
+* Kruskal’s Algorithm
+* Disjoint Set Union (DSU)
+
+---
+
+## **15. Dynamic Programming (Code)**
+
+* Fibonacci (DP)
+* Climbing stairs
+* 0/1 Knapsack
+* Unbounded Knapsack
+* Longest Increasing Subsequence
+* Longest Common Subsequence
+* Coin Change
+* Matrix Chain Multiplication
+
+---
+
+## **16. Greedy Algorithms (Code)**
+
+* Activity Selection
+* Fractional Knapsack
+* Job Sequencing
+* Huffman Coding
+
+---
+
+## **17. Bit Manipulation (Code)**
+
+* Check odd or even using bit
+* Count set bits
+* Find unique element
+* Power of two check
+* XOR swap
+
+---
+
+## **18. Trie & Advanced Structures**
+
+* Trie insertion & search
+* Prefix search
+* Word dictionary implementation
+* Segment Tree (basic)
+* Fenwick Tree (BIT)
+
+---
+
+## **19. Java-Specific DSA Utility Codes**
+
+* Custom Comparator
+* Comparable vs Comparator example
+* Fast I/O templates
+* Immutable class creation
+* PriorityQueue custom ordering
+
+---
+
+## **20. Interview & Competitive Templates**
+
+* Fast input/output template
+* DFS/BFS template
+* Binary Search template
+* Sliding window template
+* Two pointers template
+
+---
+
+### 🔥 If you complete **every program here**, you are:
+
+* Solid in **Java + DSA**
+* Interview-ready for **₹5–6 LPA roles**
+* Comfortable on **LeetCode / GFG / CF**
+
+If you want next:
+
+* I can give **Java code templates for each topic**
+* Convert this into a **printable checklist (PDF/Word)**
+* Create a **60-day / 90-day Java DSA coding plan**
+
+Just tell me how you want to use this 🚀
+
