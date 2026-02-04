@@ -388,9 +388,7 @@ Think of this as a **checklist of Java DSA implementations**.
 * Immutable class creation
 * PriorityQueue custom ordering
 
----
-
-## **20. Interview & Competitive Templates**
+20. Interview & Competitive Templates**
 
 * Fast input/output template
 * DFS/BFS template
