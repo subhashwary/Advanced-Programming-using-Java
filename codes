@@ -158,3 +158,6 @@ public interface UserRepository extends JpaRepository<UserEntity, Long> {
 For real-world enterprise applications, these concepts are often abstracted into frameworks:
 Spring Boot: Simplifies complex configurations for web services.
 Hibernate: Automates the mapping of Java objects to database tables (ORM), reducing the need for raw SQL as seen in JDBC. 
+
+
+N Y
