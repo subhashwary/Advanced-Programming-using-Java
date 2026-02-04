@@ -378,9 +378,7 @@ Think of this as a **checklist of Java DSA implementations**.
 * Segment Tree (basic)
 * Fenwick Tree (BIT)
 
----
-
-## **19. Java-Specific DSA Utility Codes**
+19. Java-Specific DSA Utility Codes**
 
 * Custom Comparator
 * Comparable vs Comparator example
